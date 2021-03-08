@@ -17,3 +17,8 @@ Observações sobre o projeto:
     - Executar o comando: **npm i**
     - Executar o comando: **npm i -g .**
     - Adicionar o comando no cronjob: **collect-metrics --path=./logs.txt**
+
+Documentos sobre arquitetura:
+==============================
+- Imagem da arquitetura: [arquivo](https://github.com/tiago123456789/challenge-api-melhor-envio/blob/master/arquitetura.png)
+- Documento que descreve os detalhes sobre a arquitetura: [arquivo](https://github.com/tiago123456789/challenge-api-melhor-envio/blob/master/descricao_arquitetura.pdf)

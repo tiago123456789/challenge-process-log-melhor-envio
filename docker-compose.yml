@@ -4,6 +4,7 @@ services:
 
   app: 
     build: ./
+    restart: on-failure
     env_file: 
       - .env
     container_name: app-collect-metrics
@@ -16,6 +17,8 @@ services:
     image: mongo
     restart: always
     container_name: mongodb
+    volumes:
+      - ./datas:/data/db
     environment:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=root

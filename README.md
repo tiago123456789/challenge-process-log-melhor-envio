@@ -10,7 +10,7 @@ Configurar projeto:
 
 Observações sobre o projeto:
 ============================
-- Esse projeto foi construído de forma que permite transformar em uma ferramenta cli para que seja possével adicionar em machinas para processar logs de tempo em tempo. Como configurar:
+- Esse projeto foi construído de forma que permite transformar em uma ferramenta cli para que seja possível adicionar em máquinas para processar logs de tempo em tempo. Como configurar:
     - Clonar projeto
     - Acessar o projeto
     - Criar arquivo **.env** baseado no arquivo **.env.example**
